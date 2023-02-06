@@ -1,0 +1,16 @@
+{
+  "name": "ch3blog",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "description": "Blog Project for Class",
+  "main": "server/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "James Nguyen",
+  "license": "ISC"
+}
