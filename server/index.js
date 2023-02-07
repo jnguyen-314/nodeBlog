@@ -2,9 +2,11 @@ const express = require('express');
 const app = new express();
 const path = require('path');
 
+const PORT = process.env.PORT || 3000;
+
 app.use(express.static('public'));
 
-app.listen(3000, ()=>{
+app.listen(PORT, ()=>{
     console.log('App listening on port 3000');
 })
 
